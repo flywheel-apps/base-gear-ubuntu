@@ -1,0 +1,24 @@
+{
+	"name": "base-gear-ubuntu",
+	"label": "Flywheel Ubuntu Base Gear",
+	"description": "This Base Gear provides the user a gear structure to build a gear upon this base. This Base Gear has Ubuntu 14.04 as the environment. It also contains a run script that takes a zip archive file of DICOM files as input and creates a text file as the output.",
+	"author": "Flywheel <support@flywheel.io>",
+	"maintainer": "Ryan Sanford <ryansanford@flywheel.io>",
+	"url": "https://example.com/",
+	"source": "https://github.com/flywheel-apps/base-gear-ubuntu",
+	"license": "MIT",
+	"version":  "0.0.1",
+	"config": {
+	},
+	"inputs": {
+		"dicom": {
+			"base": "file",
+			"type": {
+				"enum": [
+					"dicom"
+				]
+			},
+			"description": "Any dicom file."
+		}
+	}
+}
