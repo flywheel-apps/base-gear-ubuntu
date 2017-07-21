@@ -24,4 +24,7 @@
 
 	# .metadata.json to indicate gear completed successfully.
 	echo '{ "acquisition" : { "files" : [{ "name" : "result.txt" }] } }' > "/flywheel/v0/output/.metadata.json"
+	
+	# Send results to stdout
+	cat $dest
 )
