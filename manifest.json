@@ -11,13 +11,8 @@
 	"config": {
 	},
 	"inputs": {
-		"dicom": {
+		"file": {
 			"base": "file",
-			"type": {
-				"enum": [
-					"dicom"
-				]
-			},
 			"description": "Any dicom file."
 		}
 	}
